@@ -1,6 +1,4 @@
-import JsonSerializer
-import JsonDeserializer
-import Webscraper
+from util import JsonDeserializer, JsonSerializer, Webscraper
 from datetime import date
 
 #Before running, download selenium chrome webdriver and place in project directory

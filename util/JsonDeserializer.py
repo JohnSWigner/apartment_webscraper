@@ -1,6 +1,6 @@
 import json
 
-file_path = "./"
+file_path = "../"
 file_extension = ".json"
 
 def read_dict_from_json(file_name):

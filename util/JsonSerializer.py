@@ -1,6 +1,6 @@
 import json
 
-file_path = "./"
+file_path = "../"
 file_extension = ".json"
 
 def write_dict_to_json(file_name, data):
