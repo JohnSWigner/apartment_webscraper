@@ -1,9 +1,9 @@
 import json
 
-file_path = "../"
+default_file_path = "./"
 file_extension = ".json"
 
-def read_dict_from_json(file_name):
+def read_dict_from_json(file_name,file_path = default_file_path):
     # Opening JSON file
     try:
         with open(file_path + file_name + file_extension, 'r') as openfile:

@@ -1,9 +1,9 @@
 import json
 
-file_path = "../"
+default_file_path = "./"
 file_extension = ".json"
 
-def write_dict_to_json(file_name, data):
+def write_dict_to_json(file_name, data,file_path = default_file_path):
     # Serializing json
     json_object = json.dumps(data, indent=4)
 

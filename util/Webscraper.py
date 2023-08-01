@@ -1,6 +1,8 @@
+import re
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import re
+
 
 def get_data_from_url(url):
     browser = webdriver.Chrome()
